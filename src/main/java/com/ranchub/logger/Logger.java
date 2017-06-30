@@ -1,8 +1,8 @@
-package com.sc.logger;
+package com.ranchub.logger;
 
-import com.sc.logger.impl.LoggerPrinter;
-import com.sc.logger.inter.LogAdapter;
-import com.sc.logger.inter.Printer;
+import com.ranchub.logger.impl.LoggerPrinter;
+import com.ranchub.logger.inter.LogAdapter;
+import com.ranchub.logger.inter.Printer;
 import org.apache.log4j.Priority;
 
 /**

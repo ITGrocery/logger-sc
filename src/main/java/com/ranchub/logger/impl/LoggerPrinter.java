@@ -1,8 +1,9 @@
-package com.sc.logger.impl;
+package com.ranchub.logger.impl;
 
-import com.sc.logger.inter.LogAdapter;
-import com.sc.logger.inter.Printer;
-import com.sc.logger.Utils;
+import com.ranchub.logger.Logger;
+import com.ranchub.logger.Utils;
+import com.ranchub.logger.inter.LogAdapter;
+import com.ranchub.logger.inter.Printer;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -14,8 +15,6 @@ import java.io.StringReader;
 import java.io.StringWriter;
 import java.util.ArrayList;
 import java.util.List;
-
-import static com.sc.logger.Logger.*;
 
 
 public class LoggerPrinter implements Printer {
@@ -29,11 +28,11 @@ public class LoggerPrinter implements Printer {
 
 
   @Override public void d(String message, Object... args) {
-    log(DEBUG, null, message, args);
+    log(Logger.DEBUG, null, message, args);
   }
 
   @Override public void d(Object object) {
-    log(DEBUG, null, Utils.toString(object));
+    log(Logger.DEBUG, null, Utils.toString(object));
   }
 
   @Override public void e(String message, Object... args) {
@@ -41,19 +40,19 @@ public class LoggerPrinter implements Printer {
   }
 
   @Override public void e(Throwable throwable, String message, Object... args) {
-    log(ERROR, throwable, message, args);
+    log(Logger.ERROR, throwable, message, args);
   }
 
   @Override public void w(String message, Object... args) {
-    log(WARN, null, message, args);
+    log(Logger.WARN, null, message, args);
   }
 
   @Override public void i(String message, Object... args) {
-    log(INFO, null, message, args);
+    log(Logger.INFO, null, message, args);
   }
 
   @Override public void v(String message, Object... args) {
-    log(VERBOSE, null, message, args);
+    log(Logger.VERBOSE, null, message, args);
   }
 
   @Override public void json(String json) {

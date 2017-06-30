@@ -1,11 +1,9 @@
-package com.sc.logger;
+package com.ranchub.logger;
 
 import java.io.PrintWriter;
 import java.io.StringWriter;
 import java.net.UnknownHostException;
 import java.util.Arrays;
-
-import static com.sc.logger.Logger.*;
 
 /**
  * Provides convenient methods to some common operations
@@ -86,15 +84,15 @@ final public class Utils {
 
   public static String logLevel(int value) {
     switch (value) {
-      case VERBOSE:
+      case Logger.VERBOSE:
         return "VERBOSE";
-      case DEBUG:
+      case Logger.DEBUG:
         return "DEBUG";
-      case INFO:
+      case Logger.INFO:
         return "INFO";
-      case WARN:
+      case Logger.WARN:
         return "WARN";
-      case ERROR:
+      case Logger.ERROR:
         return "ERROR";
       default:
         return "UNKNOWN";

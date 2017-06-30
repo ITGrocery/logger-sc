@@ -1,7 +1,7 @@
-package com.sc.logger.impl;
+package com.ranchub.logger.impl;
 
-import com.sc.logger.inter.FormatStrategy;
-import com.sc.logger.inter.LogAdapter;
+import com.ranchub.logger.inter.FormatStrategy;
+import com.ranchub.logger.inter.LogAdapter;
 
 /**
  * @Author chenxl

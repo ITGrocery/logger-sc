@@ -1,4 +1,4 @@
-package com.sc.logger.inter;
+package com.ranchub.logger.inter;
 
 public interface FormatStrategy {
 
