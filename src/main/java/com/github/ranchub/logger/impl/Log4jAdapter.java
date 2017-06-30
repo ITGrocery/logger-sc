@@ -1,7 +1,7 @@
-package com.ranchub.logger.impl;
+package com.github.ranchub.logger.impl;
 
-import com.ranchub.logger.inter.FormatStrategy;
-import com.ranchub.logger.inter.LogAdapter;
+import com.github.ranchub.logger.inter.FormatStrategy;
+import com.github.ranchub.logger.inter.LogAdapter;
 
 /**
  * @Author chenxl

@@ -1,4 +1,4 @@
-package com.ranchub.logger;
+package com.github.ranchub.logger;
 
 import java.io.PrintWriter;
 import java.io.StringWriter;

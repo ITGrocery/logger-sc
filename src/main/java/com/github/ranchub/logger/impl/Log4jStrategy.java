@@ -1,6 +1,6 @@
-package com.ranchub.logger.impl;
+package com.github.ranchub.logger.impl;
 
-import com.ranchub.logger.inter.LogStrategy;
+import com.github.ranchub.logger.inter.LogStrategy;
 import org.apache.log4j.Logger;
 import org.apache.log4j.Priority;
 

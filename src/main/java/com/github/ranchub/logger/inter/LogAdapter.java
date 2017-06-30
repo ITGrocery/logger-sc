@@ -1,4 +1,4 @@
-package com.ranchub.logger.inter;
+package com.github.ranchub.logger.inter;
 
 public interface LogAdapter {
 

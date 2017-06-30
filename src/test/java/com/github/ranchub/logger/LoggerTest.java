@@ -1,6 +1,6 @@
-package com.ranchub.logger;
+package com.github.ranchub.logger;
 
-import com.ranchub.logger.impl.Log4jAdapter;
+import com.github.ranchub.logger.impl.Log4jAdapter;
 import org.junit.Test;
 
 /**
