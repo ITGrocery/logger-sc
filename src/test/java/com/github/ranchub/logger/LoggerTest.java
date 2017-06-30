@@ -3,11 +3,6 @@ package com.github.ranchub.logger;
 import com.github.ranchub.logger.impl.Log4jAdapter;
 import org.junit.Test;
 
-/**
- * @Author chenxl
- * @Date 2017/6/30 13:48
- * @Describle
- */
 public class LoggerTest {
 
     @Test
