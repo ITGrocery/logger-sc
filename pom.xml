@@ -19,17 +19,17 @@
     </licenses>
     <scm>
         <tag>master</tag>
-        <url>git@github.com:ranchub/logger-ranch.git</url>
+        <url>https://github.com/gh351135612/logger-sc.git</url>
     </scm>
     <developers>
         <developer>
-            <name>ranch</name>
+            <name>sc</name>
             <email>shannonc@163.com</email>
         </developer>
     </developers>
 
-    <groupId>com.github.ranchub</groupId>
-    <artifactId>logger-ranch</artifactId>
+    <groupId>com.github.gh351135612</groupId>
+    <artifactId>logger-sc</artifactId>
     <version>1.0-SNAPSHOT</version>
     <build>
         <plugins>
@@ -42,6 +42,7 @@
                 </configuration>
             </plugin>
         </plugins>
+        <finalName>logger-ranch</finalName>
     </build>
 
     <dependencies>

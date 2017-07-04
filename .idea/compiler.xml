@@ -7,10 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="logger-ranch" />
+        <module name="logger-sc" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="logger-ranch" target="1.7" />
+      <module name="logger-sc" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>
