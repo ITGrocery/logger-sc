@@ -1,9 +1,9 @@
-package com.github.ranchub.logger.impl;
+package logger.impl;
 
-import com.github.ranchub.logger.inter.FormatStrategy;
-import com.github.ranchub.logger.inter.LogAdapter;
+import logger.inter.LogAdapter;
+import logger.inter.FormatStrategy;
 
-public class Log4jAdapter implements LogAdapter{
+public class Log4jAdapter implements LogAdapter {
 
     private final FormatStrategy formatStrategy;
 

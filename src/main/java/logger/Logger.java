@@ -1,8 +1,8 @@
-package com.github.ranchub.logger;
+package logger;
 
-import com.github.ranchub.logger.impl.LoggerPrinter;
-import com.github.ranchub.logger.inter.LogAdapter;
-import com.github.ranchub.logger.inter.Printer;
+import logger.inter.LogAdapter;
+import logger.impl.LoggerPrinter;
+import logger.inter.Printer;
 import org.apache.log4j.Priority;
 
 /**

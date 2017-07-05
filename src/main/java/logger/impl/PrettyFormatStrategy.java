@@ -1,8 +1,8 @@
-package com.github.ranchub.logger.impl;
+package logger.impl;
 
-import com.github.ranchub.logger.Logger;
-import com.github.ranchub.logger.inter.FormatStrategy;
-import com.github.ranchub.logger.inter.LogStrategy;
+import logger.Logger;
+import logger.inter.FormatStrategy;
+import logger.inter.LogStrategy;
 
 public class PrettyFormatStrategy implements FormatStrategy {
 

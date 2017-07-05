@@ -1,6 +1,6 @@
-package com.github.ranchub.logger;
+package logger;
 
-import com.github.ranchub.logger.impl.Log4jAdapter;
+import logger.impl.Log4jAdapter;
 import org.junit.Test;
 
 public class LoggerTest {

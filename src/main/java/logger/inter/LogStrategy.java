@@ -1,4 +1,4 @@
-package com.github.ranchub.logger.inter;
+package logger.inter;
 
 public interface LogStrategy {
 

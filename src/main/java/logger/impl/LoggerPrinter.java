@@ -1,9 +1,9 @@
-package com.github.ranchub.logger.impl;
+package logger.impl;
 
-import com.github.ranchub.logger.Logger;
-import com.github.ranchub.logger.Utils;
-import com.github.ranchub.logger.inter.LogAdapter;
-import com.github.ranchub.logger.inter.Printer;
+import logger.Logger;
+import logger.Utils;
+import logger.inter.LogAdapter;
+import logger.inter.Printer;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
