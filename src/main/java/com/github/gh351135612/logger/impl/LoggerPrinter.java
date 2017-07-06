@@ -4,15 +4,7 @@ import com.github.gh351135612.logger.Logger;
 import com.github.gh351135612.logger.Utils;
 import com.github.gh351135612.logger.inter.LogAdapter;
 import com.github.gh351135612.logger.inter.Printer;
-import org.json.JSONArray;
-import org.json.JSONException;
-import org.json.JSONObject;
 
-import javax.xml.transform.*;
-import javax.xml.transform.stream.StreamResult;
-import javax.xml.transform.stream.StreamSource;
-import java.io.StringReader;
-import java.io.StringWriter;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -49,53 +41,6 @@ public class LoggerPrinter implements Printer {
 
   @Override public void i(String message, Object... args) {
     log(Logger.INFO, null, message, args);
-  }
-
-  @Override public void v(String message, Object... args) {
-    log(Logger.VERBOSE, null, message, args);
-  }
-
-  @Override public void json(String json) {
-    if (Utils.isEmpty(json)) {
-      d("Empty/Null json content");
-      return;
-    }
-    try {
-      json = json.trim();
-      if (json.startsWith("{")) {
-        JSONObject jsonObject = new JSONObject(json);
-        String message = jsonObject.toString(JSON_INDENT);
-        d(message);
-        return;
-      }
-      if (json.startsWith("[")) {
-        JSONArray jsonArray = new JSONArray(json);
-        String message = jsonArray.toString(JSON_INDENT);
-        d(message);
-        return;
-      }
-      e("Invalid Json");
-    } catch (JSONException e) {
-      e("Invalid Json");
-    }
-  }
-
-  @Override public void xml(String xml) {
-    if (Utils.isEmpty(xml)) {
-      d("Empty/Null xml content");
-      return;
-    }
-    try {
-      Source xmlInput = new StreamSource(new StringReader(xml));
-      StreamResult xmlOutput = new StreamResult(new StringWriter());
-      Transformer transformer = TransformerFactory.newInstance().newTransformer();
-      transformer.setOutputProperty(OutputKeys.INDENT, "yes");
-      transformer.setOutputProperty("{http://xml.apache.org/xslt}indent-amount", "2");
-      transformer.transform(xmlInput, xmlOutput);
-      d(xmlOutput.getWriter().toString().replaceFirst(">", ">\n"));
-    } catch (TransformerException e) {
-      e("Invalid xml");
-    }
   }
 
   @Override public synchronized void log(int priority, String message, Throwable throwable) {

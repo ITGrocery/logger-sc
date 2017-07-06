@@ -61,27 +61,8 @@ public final class Logger {
     printer.i(message, args);
   }
 
-  public static void v(String message, Object... args) {
-    printer.v(message, args);
-  }
-
   public static void w(String message, Object... args) {
     printer.w(message, args);
-  }
-
-
-  /**
-   * Formats the given json content and print it
-   */
-  public static void json(String json) {
-    printer.json(json);
-  }
-
-  /**
-   * Formats the given xml content and print it
-   */
-  public static void xml(String xml) {
-    printer.xml(xml);
   }
 
 }

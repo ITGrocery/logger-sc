@@ -13,6 +13,8 @@ public class LoggerTest {
         Logger.i("INFO级别日志");
         Logger.w("WARN级别日志");
         Logger.e("ERROR级别日志");
+        Logger.d("hello %s", "world");
+        Logger.e(new Throwable("print error"),"log e");
 
     }
 

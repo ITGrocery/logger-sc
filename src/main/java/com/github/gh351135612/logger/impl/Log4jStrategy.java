@@ -10,7 +10,6 @@ public class Log4jStrategy implements LogStrategy {
 
     @Override
     public void log(int priority, String message) {
-        // TODO: 2017/6/30 待适配
-        logger.log(Priority.toPriority(priority),message);
+        logger.log(Priority.toPriority(priority), message);
     }
 }

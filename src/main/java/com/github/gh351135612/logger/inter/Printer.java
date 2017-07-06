@@ -16,18 +16,6 @@ public interface Printer {
 
   void i(String message, Object... args);
 
-  void v(String message, Object... args);
-
-  /**
-   * Formats the given json content and print it
-   */
-  void json(String json);
-
-  /**
-   * Formats the given xml content and print it
-   */
-  void xml(String xml);
-
   void log(int priority, String message, Throwable throwable);
 
   void clearLogAdapters();
