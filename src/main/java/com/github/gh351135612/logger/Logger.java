@@ -1,8 +1,8 @@
-package logger;
+package com.github.gh351135612.logger;
 
-import logger.inter.LogAdapter;
-import logger.impl.LoggerPrinter;
-import logger.inter.Printer;
+import com.github.gh351135612.logger.inter.LogAdapter;
+import com.github.gh351135612.logger.impl.LoggerPrinter;
+import com.github.gh351135612.logger.inter.Printer;
 import org.apache.log4j.Priority;
 
 /**

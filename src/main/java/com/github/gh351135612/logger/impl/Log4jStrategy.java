@@ -1,6 +1,6 @@
-package logger.impl;
+package com.github.gh351135612.logger.impl;
 
-import logger.inter.LogStrategy;
+import com.github.gh351135612.logger.inter.LogStrategy;
 import org.apache.log4j.Logger;
 import org.apache.log4j.Priority;
 

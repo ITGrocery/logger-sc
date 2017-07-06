@@ -1,4 +1,4 @@
-package logger;
+package com.github.gh351135612.logger;
 
 import java.io.PrintWriter;
 import java.io.StringWriter;

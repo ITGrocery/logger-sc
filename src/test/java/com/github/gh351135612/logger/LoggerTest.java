@@ -1,6 +1,6 @@
-package logger;
+package com.github.gh351135612.logger;
 
-import logger.impl.Log4jAdapter;
+import com.github.gh351135612.logger.impl.Log4jAdapter;
 import org.junit.Test;
 
 public class LoggerTest {

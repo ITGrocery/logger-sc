@@ -1,8 +1,8 @@
-package logger.impl;
+package com.github.gh351135612.logger.impl;
 
-import logger.Logger;
-import logger.inter.FormatStrategy;
-import logger.inter.LogStrategy;
+import com.github.gh351135612.logger.Logger;
+import com.github.gh351135612.logger.inter.FormatStrategy;
+import com.github.gh351135612.logger.inter.LogStrategy;
 
 public class PrettyFormatStrategy implements FormatStrategy {
 

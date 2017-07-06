@@ -1,9 +1,9 @@
-package logger.impl;
+package com.github.gh351135612.logger.impl;
 
-import logger.Logger;
-import logger.Utils;
-import logger.inter.LogAdapter;
-import logger.inter.Printer;
+import com.github.gh351135612.logger.Logger;
+import com.github.gh351135612.logger.Utils;
+import com.github.gh351135612.logger.inter.LogAdapter;
+import com.github.gh351135612.logger.inter.Printer;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;

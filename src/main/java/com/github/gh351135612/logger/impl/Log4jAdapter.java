@@ -1,7 +1,7 @@
-package logger.impl;
+package com.github.gh351135612.logger.impl;
 
-import logger.inter.LogAdapter;
-import logger.inter.FormatStrategy;
+import com.github.gh351135612.logger.inter.FormatStrategy;
+import com.github.gh351135612.logger.inter.LogAdapter;
 
 public class Log4jAdapter implements LogAdapter {
 

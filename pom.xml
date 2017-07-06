@@ -23,14 +23,14 @@
     </scm>
     <developers>
         <developer>
-            <name>sc</name>
+            <name>Shannon Chen</name>
             <email>shannonc@163.com</email>
         </developer>
     </developers>
 
     <groupId>com.github.gh351135612</groupId>
     <artifactId>logger-sc</artifactId>
-    <version>1.0</version>
+    <version>1.1</version>
     <build>
         <plugins>
             <plugin>
