@@ -30,3 +30,4 @@ Logger.d("hello %s", "world");
 Logger.e(new Throwable("print error"),"log e");
 ```
 Output
+<img src="https://github.com/gh351135612/logger-sc/blob/master/art/output.png"/>
