@@ -1,7 +1,7 @@
 # logger-sc
 ✔️ Simple, pretty and powerful logger for java
 
-#Introduction
+# Introduction
 The [logger-sc](https://github.com/gh351135612/logger-sc) forked from [orhanobut/logger
 ](https://github.com/orhanobut/logger),because it depends on Logcat of Android,we don't use it on other java project.I modify some source code,let it depends on log4j to make it more generally. 
 
